@@ -5,6 +5,6 @@ public class Parallelepiped {
         int sideHeight = 6;
         int volume = sideLength*sideWidth*sideHeight;
         int length = sideLength+sideWidth+sideHeight;
-        System.out.println("Обьем параллелипипеда: " + volume + ", Сумарная длина всех сторон: " + length);
+        System.out.println("Обьем параллелипипеда = " + volume + ", Сумарная длина всех сторон = " + length);
     }
 }
