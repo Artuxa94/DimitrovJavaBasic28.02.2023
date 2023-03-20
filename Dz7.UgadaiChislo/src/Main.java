@@ -19,7 +19,5 @@ public class Main {
         } if (attemps == 0) {
             System.out.println("Ты проиграл, загаданое число было " + randomNumb);
         }
-
-
     }
 }
