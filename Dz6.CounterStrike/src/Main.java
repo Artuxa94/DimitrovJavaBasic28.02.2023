@@ -43,16 +43,16 @@ public class Main {
         double averegCt = sumCt/numberPlayers;
         double averegT = sumT/numberPlayers;
 
-        if (averegCt > averegT) {
-            System.out.println("Выиграла команда " + ctName + " набрала " + averegCt + " очков");
-            if (averegCt < averegT) {
-                System.out.println("Выиграла команда " + tName + " набрала " + averegT + " очков");
-            }
+        if (sumCt > sumT) {
+            System.out.println("Выиграла команда " + ctName + " набрала " + sumCt + " очков," + "среднее арефмитическое количестов очков " + averegCt);
+          }
+         else if (sumCt < sumT) {
+            System.out.println("Выиграла команда " + tName + " набрала " + sumT + " очков," + "среднее арефмитическое количестов очков " + averegT );
         }
         else {
-            System.out.println("Ничья");
-            System.out.println("Результат команды " + ctName + " " + averegCt + " очков");
-            System.out.println("Результат команды " + tName + " " + averegT + " очков");
+            System.out.println("Ничья!!!");
+            System.out.println("Результат команды " + ctName + " " + sumCt + " очков," + "среднее арефмитическое количестов очков " + averegCt);
+            System.out.println("Результат команды " + tName + " " + sumT + " очков," + "среднее арефмитическое количестов очков " + averegT);
         }
     }
 }
