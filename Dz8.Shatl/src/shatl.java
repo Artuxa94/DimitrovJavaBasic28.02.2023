@@ -8,7 +8,7 @@ public class shatl {
                 continue;
             }
             index++;
-            System.out.println(shatlsName + " номер шатла");
+            System.out.println("Шатл номер - " + shatlsName);
             if (index == 100){
                 break;
             }
