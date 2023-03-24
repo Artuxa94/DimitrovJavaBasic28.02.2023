@@ -8,7 +8,7 @@ public class shatl {
                 continue;
             }
             index++;
-            System.out.println("Шатл номер - " + shatlsName);
+            System.out.println("Шатл номер - " + shatlsName + " index " + index);
             if (index == 100){
                 break;
             }
