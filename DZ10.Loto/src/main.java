@@ -10,7 +10,7 @@ public class Main {
         int luckyTicket[] = new int[7];
         int userTicket[] = new int [7];
         int min = 0;
-        int max = 10;
+        int max = 9;
         int coincidences = 0;
         for (int i = 0; i < 7; i++){
             luckyTicket[i] = randomNumb(min, max);
