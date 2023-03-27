@@ -7,8 +7,8 @@ public class Main {
         return random.nextInt(max - min + 1) + min;
     }
     public static void main(String[] args) {
-        int luckyTicket[] = new int[7];
-        int userTicket[] = new int [7];
+        int[] luckyTicket = new int[7];
+        int[] userTicket = new int [7];
         int min = 0;
         int max = 9;
         int coincidences = 0;
