@@ -6,13 +6,13 @@ public class Main {
     public static final int AGE_MIN = 18;
     public static final int AGE_MAX = 40;
     public static void main(String[] args) {
-        int ageRedTeam[] = new int[PLAYERS];
-        int ageBlueTeam[] = new int[PLAYERS];
+        int[] ageRedTeam = new int[PLAYERS];
+        int[] ageBlueTeam = new int[PLAYERS];
         int sumRedTeam = 0;
         int sumBlueTeam = 0;
         for (int i = 0; i < PLAYERS; i++){
-            ageRedTeam[i] = randomeAge(AGE_MIN,AGE_MAX);
-            ageBlueTeam[i] = randomeAge(AGE_MIN,AGE_MAX);
+            ageRedTeam[i] = randomAge(AGE_MIN,AGE_MAX);
+            ageBlueTeam[i] = randomAge(AGE_MIN,AGE_MAX);
         }
         for (int i = 0; i < ageRedTeam.length; i++) {
             sumRedTeam += ageRedTeam[i];
@@ -25,7 +25,7 @@ public class Main {
 
 
     }
-    static int randomeAge ( int min, int max ){
+    static int randomAge ( int min, int max ){
         Random random = new Random();
         return random.nextInt(max - min + 1) + min;
     }
