@@ -6,6 +6,5 @@ public class Main {
         System.out.println(person1.personInfo());
         System.out.println(person2.personInfo());
         System.out.println(person3.personInfo());
-
     }
 }
