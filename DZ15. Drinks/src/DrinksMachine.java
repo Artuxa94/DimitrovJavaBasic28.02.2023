@@ -4,7 +4,8 @@
     LEMONADE("Лимонад"),
     MOJITO("Мохито"),
     MINERAL("Минералка"),
-    COCA_COLA("КокаКола");
+    COCACOLA("КокаКола"),
+    EXIT("Выход");
 
     private final String name;
 
