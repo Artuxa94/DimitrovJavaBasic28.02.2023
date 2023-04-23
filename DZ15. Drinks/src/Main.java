@@ -5,10 +5,12 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Drinks drinks = new Drinks();
+
         boolean order = true;
 
         while (order) {
-            Drinks drinks = new Drinks();
+
             Scanner scan = new Scanner(System.in);
 
             System.out.println("Выберите напиток: ");
