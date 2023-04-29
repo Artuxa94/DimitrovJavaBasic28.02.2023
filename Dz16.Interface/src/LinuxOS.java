@@ -1,4 +1,5 @@
 public interface LinuxOS {
-void info();
+
+    void googlePlay();
 
 }

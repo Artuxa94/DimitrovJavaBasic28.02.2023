@@ -2,14 +2,13 @@
 
 public class Main {
     public static void main(String[] args) {
-        
     iPhones iphone = new iPhones();
 
     iphone.call(75768);
     iphone.sms(78987,"Hi iPhone");
     iphone.internet();
     iphone.info();
-    iphone.appStore();
+
 
     System.out.println("---------------------------------");
     Androids android = new Androids();
